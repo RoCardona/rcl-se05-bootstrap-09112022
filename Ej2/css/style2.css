@@ -1,0 +1,13 @@
+.container-fluid {
+    width: 70vw;
+    height: 75vh;
+    background-color: aquamarine;
+}
+.container-fluid1 {
+    width: 50vw;
+    height: 52vh;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
