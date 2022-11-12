@@ -1,37 +1,90 @@
 body {
-    background-color: aquamarine;
+   background: url(../img1/th.jpg);
+    margin-top: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+/* TAMAÑO DOCUMENTO */
 .container-fluid {
-    background-color: red;
     width: 50vw;
-    height: 70vh;
+    height: 60vh;
 }
+/* FRASES ARRIBA FORMULARIO */
 .row1 {
-    width: 45vw;
-    height: 7vh;
+    width: 50vw;
+    height: 5vh;
     text-align: center;
-    background-color: blue; 
 }
 .row2 {
-    width: 45vw;
-    height: 7vh;
+     width: 50vw;
+    height: 5vh;  
     text-align: left;
-    background-color: rgb(255, 251, 0);
+    margin-left: 10px;
 }
-form {
-    width: 45vw;
-    height: 30vh;
-    background-color: grey;
-       border: 2px solid black;
-        
+/* FRASES DENTRO DEL MARCO FORMULARIO Y FORMULARIO */
+.container-fluid2-3 {
+    background-color: white;
+    width: 47vw;
+    height: 25vh;
 }
 .container-fluid2 {
-    width: 45vw;
-    height: 20vh;
-    background-color: white;
-    border: 2px solid black;
-    display: flex;
+    width: 40vw;
+    height: 8vh;
+     margin-top: 13px;
+}
+.row3, .row4 {
+    color: grey;
+    margin-left: 15px;
 }
 .container-fluid3 {
-justify-content: center;
+    background-color: rgb(217, 217, 192);
+    width: 47vw;
+    height: 20vh;
+    margin-top: 1px;
+}
+.primero {
+    width: 45vw;
+    height: 4vh;
+  padding: 10px;
+}
+.segundo {
+    width: 45vw;
+    height: 4vh;
+    padding: 10px;
+}
+.tercero {
+    padding: 10px;
+}
+.button-tercero {
+    width: 43vw;
+    height: 4vh;
+    text-align: center;
+    margin: 3px;
+}
+/* FRASE DEBAJO FORMULARIO */
+.container-fluid4 {
+    width: 45vw;
+    height: 5vh;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+/* LOGOS */
+.container-fluid5 {
+  width: 47vw;
+    height: 10vh;
+    align-items: center;
+    display: flex;
+        align-items: center;
+    justify-content:space-evenly;
+}
+.row5 {
+    margin-top: 7%;
+}
+.row6 {
+    width: 7vw;
+    height: 4vh;
+    background-color: rgb(148, 134, 134);
+    color: rgb(9, 8, 8);
+    border: 2px solid white;
 }
