@@ -1,0 +1,34 @@
+
+body {
+background-image: url(../img/burbu.webp);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.container-fluid {
+  width: 70vw;
+  height: 75vh;
+  background-color: rgb(194, 222, 230, 0.5);
+  margin-top: 40px;
+}
+.text {
+  color: rgb(50, 175, 186);
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-fluid1 {
+  width: 50vw;
+  height: 52vh;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  margin-left: 20%;
+}
+.container-fluid2 {
+   display: flex;
+  align-items: center;
+  justify-content: center; 
+  margin-top: 30px;  
+}
