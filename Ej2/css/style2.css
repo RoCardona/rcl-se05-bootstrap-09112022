@@ -1,9 +1,9 @@
-
 body {
-background-image: url(../img/burbu.webp);
-background-repeat: no-repeat;
-background-size: cover;
+  background-image: url(../img/burbu.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+/* DIV PADRE */
 .container-fluid {
   width: 70vw;
   height: 75vh;
@@ -17,6 +17,50 @@ background-size: cover;
   align-items: center;
   justify-content: center;
 }
+/* CONTAINER ICONOS */
+.container-fuid9 {
+  width: 3vw;
+  height: 3vh;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+.img1 {
+  width: 4vw;
+  height: 4vh;
+  display: flex;
+  margin-left: 150px;
+  margin-top: 35px;
+}
+.img2 {
+  width: 4vw;
+  height: 4vh;
+  display: flex;
+    margin-left: 150px;
+  margin-top: 15px;
+} 
+.img3 {
+  width: 4vw;
+  height: 4vh;
+  display: flex;
+    margin-left: 150px;
+  margin-top: 20px;
+} 
+.img4 {
+  width: 4vw;
+  height: 4vh;
+  display: flex;
+    margin-left: 150px;
+  margin-top: 25px;
+} 
+.img5 {
+  width: 4vw;
+  height: 4vh;
+  display: flex;
+    margin-left: 150px;
+  margin-top: 30px;
+} 
+/* FORMULARIO */
 .container-fluid1 {
   width: 50vw;
   height: 52vh;
@@ -25,19 +69,13 @@ background-size: cover;
   justify-content: center;
   border: 2px solid black;
   margin-left: 20%;
+  margin-top: -30px;
 }
+/* BUTTON SUBMIT */
 .container-fluid2 {
-   display: flex;
-  align-items: center;
-  justify-content: center; 
-  margin-top: 30px;  
-}
-/* .container-fluid9 {
-  width: 30vw;
-  height: 30vh;
-} */
-/* .img {
   display: flex;
   align-items: center;
   justify-content: center;
-} */
+  margin-top: 30px;
+}
+
