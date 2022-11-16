@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+.container-fluid {
+    height: 10vh;
+}
+.container-fluid1 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 40vw;
+}
+.container-fluid2 {
+   display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+      width: 25vw; 
+      margin-left: 75%;
+      margin-top: -51px;
+}
+.container-fluid1-1 {
+    width: 10vw;
+      display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.container-fluid3 {
+    width: 45vw;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+    background-color: violet;
+}
+img {
+ height: 50%;
+ width: 50%;
+ object-fit: contain;
+}
+.imagen1 {
+ height:70px;
+ width: 70px;
+}
+.image1 {
+ width: 10vw; 
+}
+
