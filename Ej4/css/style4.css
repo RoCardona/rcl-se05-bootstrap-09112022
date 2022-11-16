@@ -1,0 +1,57 @@
+body {
+    background-color: brown;
+    margin: 0;
+}
+/* TITULO */
+h4 {
+color: cornflowerblue;
+  margin-left: 10%;
+}
+/* PRIMERA FRASE */
+.first {
+margin-left: 10%;
+margin-top: 34px;
+}
+.btn-group{
+margin-left: 14%;
+margin-top: -50px;
+}
+.second {
+margin-left: 18%;
+margin-top: -47px;
+}
+/* TABLA */
+.table-first {
+background-image: linear-gradient(rgb(255, 159, 49), rgb(84, 237, 150));
+   width: 70vw;
+   margin-left: 10%;
+   margin-top: 40px;
+}
+.col1 {
+  background-color: rgb(18, 206, 206, 0.71);
+}
+.image1, .image2, .image3 {
+  width: 4vw;
+  height: 4vh;
+  display: flex;
+}
+img{
+  width: 2vw;
+  height: 3vh;
+  display:flex;
+}
+.image2, .image3 {
+  margin-left: 15px;
+}
+
+.register {
+margin-left: 10%;
+}
+
+.buttons {
+    margin-left: 67%;
+    margin-top: -25px;
+}
+.button-end {
+margin-left: 10%;
+}
